@@ -1,0 +1,98 @@
+body{
+        margin: 0;
+        padding: 0;
+        background-color:#8CC461 ;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.container{
+    max-width: 100vh;
+}
+.img{
+    margin-top: 40px;
+}
+.img1{
+    position: absolute;
+    top: 25%;
+    left: 36rem;
+}
+.div-heading{
+    max-width: 100%;
+    position: absolute;
+    top:58%;
+    left: 35rem;
+}
+.heading1{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.heading2{
+    position: relative;
+    top:-1rem;
+    left: 10px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.play{
+    position: relative;
+    left: 4rem;
+    width: 150px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 3px;
+    color: #6B6B6B;
+   
+}
+.rule{
+    position: absolute;
+    top: 92%;
+    right: 4rem;
+    padding: 10px;
+}
+.rules{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: white;
+}
+.rule-modal{
+    position: absolute;
+    background-color: #004429;
+    color: white;
+    width: 320px;
+    height: 360px;
+    padding: 5px;
+    border: 8px solid white;
+    border-radius: 12px;
+    right: 2.6rem;
+    top: 29%;
+    display: none;
+  
+}
+.disc-style{
+    list-style: square;
+    position: relative;
+    top: -60px;
+}
+.disc-style li::marker{
+    color: #FFA943;
+}
+.heading{
+    text-align: center;
+}
+.image{
+    position: relative;
+    top: -105px;
+    left: 295px;
+    background-color: red;
+    border-radius: 50%;
+    border: 8px solid white;
+    
+}

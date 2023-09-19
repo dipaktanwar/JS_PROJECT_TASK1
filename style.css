@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#8CC461 ;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.header{
+    width: 700px;
+    height: 150px;
+    border: 3px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    margin: 20px;
+}
+.div-score{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.machine-score{
+    background-color: white;
+    height: 130px;
+    width: 105px;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+.user-score{
+    background-color: white;
+    height: 130px;
+    width: 105px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-radius: 12px;
+    
+}
+#value{
+    font-size: 55px;
+}
+#value1{
+    font-size: 55px;
+}
+.comp{
+    font-size: 14px;
+    color: #6B6B6B;
+    letter-spacing: 2px;
+    margin-left: 5px;
+}
+.div-win{
+    width: 700px;
+    max-height: 15vh;
+    margin-top: 1rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.user,.machine{
+    color: white;
+    font-size: 19px;
+    opacity: 0;
+}
+.option{
+    max-width: 100%;
+    width: 700px;
+    min-height: 49vh;
+    display: grid;
+    place-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+.pic{
+    position: absolute;
+    height: 120px ;
+    width: 120px;
+    border-radius: 50%;
+    padding: 18px;
+}
+.computer{
+    position: absolute;
+    height: 120px ;
+    width: 120px;
+    border-radius: 50%;
+    padding: 18px;
+    display: none;
+}
+.item{
+    height: 100%;
+    display: grid;
+    place-content:center;
+    background-color: white;
+    border-radius: 50%;
+}
+.rock-pic{
+    background-color: #0074B6;
+    top: -6%;
+    left: 180px;
+}
+.paper-pic{
+    background-color:#FFA943;
+    top: -5%;
+    left:380px;
+
+}
+.siss-pic{
+    background-color: #BD00FF ;
+    top: 50%;
+    left: 270px;
+}
+.win-modal{
+    position: fixed;
+    top: 40%;
+    left: 38.3rem;
+    display: none;
+}
+.winner{
+    color: white;
+    z-index: 1;
+    position: relative;
+    left: 10px;
+     bottom: -30px;
+}
+.against{
+    position: relative;
+    left: 13px;
+    font-size: 19px;
+    color: white;
+    z-index: 1;
+
+}
+.play{
+    width: 150px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 3px;
+    color: #6B6B6B;
+   
+}
+.show{
+    top: -1%;
+    left: 110px;
+}
+.right{
+    top: -1%;
+    left:450px;
+}
+.rule-modal{
+    position: absolute;
+    background-color: #004429;
+    color: white;
+    width: 320px;
+    height: 360px;
+    padding: 5px;
+    border: 8px solid white;
+    border-radius: 12px;
+    right: 2.6rem;
+    top: 29%;
+    display: none;
+  
+}
+.disc-style{
+    list-style: square;
+    position: relative;
+    top: -60px;
+}
+.disc-style li::marker{
+    color: #FFA943;
+}
+.heading{
+    text-align: center;
+}
+.image{
+    position: relative;
+    top: -105px;
+    left: 295px;
+    background-color: red;
+    border-radius: 50%;
+    border: 8px solid white;
+    
+}
+.img2{
+    padding: 8px;
+}
+.rule{
+    position: absolute;
+    top: 92%;
+    right: 6.6rem;
+    padding: 10px;
+   
+
+}
+.rules{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: white;
+}
+.next{
+    position: absolute;
+    top: 92%;
+    right: 2rem;
+    padding: 10px;
+
+}
+.nextbtn{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: white;
+    display: none;
+}
